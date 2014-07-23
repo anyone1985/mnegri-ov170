@@ -1,0 +1,2005 @@
+details:
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_10152_blood
+  files:
+  - Sample_10152_blood_R1.fastq.gz
+  - Sample_10152_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_10152_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020183_blood
+  files:
+  - Sample_2020183_blood_R1.fastq.gz
+  - Sample_2020183_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020183_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20924_Ft-S
+  files:
+  - Sample_20924_Ft-S_R1.fastq.gz
+  - Sample_20924_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20924_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20924_blood
+  files:
+  - Sample_20924_blood_R1.fastq.gz
+  - Sample_20924_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20924_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20821_Ft-S
+  files:
+  - Sample_20821_Ft-S_R1.fastq.gz
+  - Sample_20821_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20821_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20821_blood
+  files:
+  - Sample_20821_blood_R1.fastq.gz
+  - Sample_20821_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20821_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20800_Ft-S
+  files:
+  - Sample_20800_Ft-S_R1.fastq.gz
+  - Sample_20800_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20800_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20800_blood
+  files:
+  - Sample_20800_blood_R1.fastq.gz
+  - Sample_20800_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20800_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20788_Ft-S
+  files:
+  - Sample_20788_Ft-S_R1.fastq.gz
+  - Sample_20788_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20788_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20788_blood
+  files:
+  - Sample_20788_blood_R1.fastq.gz
+  - Sample_20788_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20788_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20783_Ft-S
+  files:
+  - Sample_20783_Ft-S_R1.fastq.gz
+  - Sample_20783_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20783_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20783_blood
+  files:
+  - Sample_20783_blood_R1.fastq.gz
+  - Sample_20783_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20783_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20738_Ft-S
+  files:
+  - Sample_20738_Ft-S_R1.fastq.gz
+  - Sample_20738_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20738_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20738_blood
+  files:
+  - Sample_20738_blood_R1.fastq.gz
+  - Sample_20738_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20738_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20724_Ft-S
+  files:
+  - Sample_20724_Ft-S_R1.fastq.gz
+  - Sample_20724_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20724_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20724_blood
+  files:
+  - Sample_20724_blood_R1.fastq.gz
+  - Sample_20724_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20724_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20683_Ft-S
+  files:
+  - Sample_20683_Ft-S_R1.fastq.gz
+  - Sample_20683_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20683_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20683_blood
+  files:
+  - Sample_20683_blood_R1.fastq.gz
+  - Sample_20683_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20683_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20681_Ft-S
+  files:
+  - Sample_20681_Ft-S_R1.fastq.gz
+  - Sample_20681_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20681_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20681_blood
+  files:
+  - Sample_20681_blood_R1.fastq.gz
+  - Sample_20681_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20681_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20654_Ft-S
+  files:
+  - Sample_20654_Ft-S_R1.fastq.gz
+  - Sample_20654_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20654_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20654_blood
+  files:
+  - Sample_20654_blood_R1.fastq.gz
+  - Sample_20654_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20654_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20614_Ft-S
+  files:
+  - Sample_20614_Ft-S_R1.fastq.gz
+  - Sample_20614_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20614_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20614_blood
+  files:
+  - Sample_20614_blood_R1.fastq.gz
+  - Sample_20614_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20614_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20560_Ft-S
+  files:
+  - Sample_20560_Ft-S_R1.fastq.gz
+  - Sample_20560_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20560_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20560_blood
+  files:
+  - Sample_20560_blood_R1.fastq.gz
+  - Sample_20560_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20560_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20418_Ft-S
+  files:
+  - Sample_20418_Ft-S_R1.fastq.gz
+  - Sample_20418_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20418_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20418_blood
+  files:
+  - Sample_20418_blood_R1.fastq.gz
+  - Sample_20418_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20418_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20417_Ft-S
+  files:
+  - Sample_20417_Ft-S_R1.fastq.gz
+  - Sample_20417_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20417_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20417_blood
+  files:
+  - Sample_20417_blood_R1.fastq.gz
+  - Sample_20417_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20417_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20384_Ft-S
+  files:
+  - Sample_20384_Ft-S_R1.fastq.gz
+  - Sample_20384_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20384_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20384_blood
+  files:
+  - Sample_20384_blood_R1.fastq.gz
+  - Sample_20384_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20384_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20379_Ft-S
+  files:
+  - Sample_20379_Ft-S_R1.fastq.gz
+  - Sample_20379_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20379_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20379_blood
+  files:
+  - Sample_20379_blood_R1.fastq.gz
+  - Sample_20379_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20379_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20367_Ft-S
+  files:
+  - Sample_20367_Ft-S_R1.fastq.gz
+  - Sample_20367_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20367_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20367_blood
+  files:
+  - Sample_20367_blood_R1.fastq.gz
+  - Sample_20367_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20367_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20357_Ft-S
+  files:
+  - Sample_20357_Ft-S_R1.fastq.gz
+  - Sample_20357_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20357_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20357_blood
+  files:
+  - Sample_20357_blood_R1.fastq.gz
+  - Sample_20357_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20357_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20282_Ft-S
+  files:
+  - Sample_20282_Ft-S_R1.fastq.gz
+  - Sample_20282_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20282_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20282_blood
+  files:
+  - Sample_20282_blood_R1.fastq.gz
+  - Sample_20282_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20282_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021311_Ft-S
+  files:
+  - Sample_2021311_Ft-S_R1.fastq.gz
+  - Sample_2021311_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021311_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021311_blood
+  files:
+  - Sample_2021311_blood_R1.fastq.gz
+  - Sample_2021311_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021311_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021309_Ft-S
+  files:
+  - Sample_2021309_Ft-S_R1.fastq.gz
+  - Sample_2021309_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021309_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021309_blood
+  files:
+  - Sample_2021309_blood_R1.fastq.gz
+  - Sample_2021309_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021309_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021296_Ft-S
+  files:
+  - Sample_2021296_Ft-S_R1.fastq.gz
+  - Sample_2021296_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021296_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021296_blood
+  files:
+  - Sample_2021296_blood_R1.fastq.gz
+  - Sample_2021296_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021296_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021270_Ft-S
+  files:
+  - Sample_2021270_Ft-S_R1.fastq.gz
+  - Sample_2021270_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021270_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021270_blood
+  files:
+  - Sample_2021270_blood_R1.fastq.gz
+  - Sample_2021270_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021270_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021249_Ft-S
+  files:
+  - Sample_2021249_Ft-S_R1.fastq.gz
+  - Sample_2021249_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021249_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021249_blood
+  files:
+  - Sample_2021249_blood_R1.fastq.gz
+  - Sample_2021249_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021249_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021194_Ft-S
+  files:
+  - Sample_2021194_Ft-S_R1.fastq.gz
+  - Sample_2021194_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021194_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021194_blood
+  files:
+  - Sample_2021194_blood_R1.fastq.gz
+  - Sample_2021194_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021194_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021184_Ft-S
+  files:
+  - Sample_2021184_Ft-S_R1.fastq.gz
+  - Sample_2021184_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021184_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021184_blood
+  files:
+  - Sample_2021184_blood_R1.fastq.gz
+  - Sample_2021184_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021184_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021110_Ft-S
+  files:
+  - Sample_2021110_Ft-S_R1.fastq.gz
+  - Sample_2021110_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021110_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021110_blood
+  files:
+  - Sample_2021110_blood_R1.fastq.gz
+  - Sample_2021110_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021110_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021093_Ft-S
+  files:
+  - Sample_2021093_Ft-S_R1.fastq.gz
+  - Sample_2021093_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021093_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2021093_blood
+  files:
+  - Sample_2021093_blood_R1.fastq.gz
+  - Sample_2021093_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2021093_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020995_Ft-S
+  files:
+  - Sample_2020995_Ft-S_R1.fastq.gz
+  - Sample_2020995_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020995_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020995_blood
+  files:
+  - Sample_2020995_blood_R1.fastq.gz
+  - Sample_2020995_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020995_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020943_Ft-S
+  files:
+  - Sample_2020943_Ft-S_R1.fastq.gz
+  - Sample_2020943_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020934_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020943_blood
+  files:
+  - Sample_2020943_blood_R1.fastq.gz
+  - Sample_2020943_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020934_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020935_Ft-S
+  files:
+  - Sample_2020935_Ft-S_R1.fastq.gz
+  - Sample_2020935_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020935_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020935_blood
+  files:
+  - Sample_2020935_blood_R1.fastq.gz
+  - Sample_2020935_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020935_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020663_Ft-S
+  files:
+  - Sample_2020663_Ft-S_R1.fastq.gz
+  - Sample_2020663_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020663_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020663_blood
+  files:
+  - Sample_2020663_blood_R1.fastq.gz
+  - Sample_2020663_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020663_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_2020183_Ft-S
+  files:
+  - Sample_2020183_Ft-S_R1.fastq.gz
+  - Sample_2020183_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_2020183_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20174_Ft-S
+  files:
+  - Sample_20174_Ft-S_R1.fastq.gz
+  - Sample_20174_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20174_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20174_blood
+  files:
+  - Sample_20174_blood_R1.fastq.gz
+  - Sample_20174_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20174_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20144_Ft-S
+  files:
+  - Sample_20144_Ft-S_R1.fastq.gz
+  - Sample_20144_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20144_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_20144_blood
+  files:
+  - Sample_20144_blood_R1.fastq.gz
+  - Sample_20144_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_20144_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_21019_Ft-S
+  files:
+  - Sample_21019_Ft-S_R1.fastq.gz
+  - Sample_21019_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_21019_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_21019_blood
+  files:
+  - Sample_21019_blood_R1.fastq.gz
+  - Sample_21019_blood_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_21019_Ft-S_vs_blood
+    phenotype: normal
+    sex: female
+- algorithm:
+    aligner: bwa
+    clinical_reporting: true
+    coverage_depth: high
+    coverage_interval: regional
+    mark_duplicates: false
+    min_allele_fraction: 1.0
+    platform: illumina
+    quality_format: Standard
+    realign: gatk
+    recalibrate: gatk
+    trim_reads: false
+    variant_regions: variant_regions1
+    variantcaller:
+    - mutect
+    - varscan
+    write_summary: false
+  analysis: variant2
+  description: Sample_10152_Ft-S
+  files:
+  - Sample_10152_Ft-S_R1.fastq.gz
+  - Sample_10152_Ft-S_R2.fastq.gz
+  genome_build: hg19
+  metadata:
+    batch: Sample_10152_Ft-S_vs_blood
+    phenotype: tumor
+    sex: female
+fc_date: '2014-04-14'
+fc_name: OV170-172_Ft-S_vs_blood_panelB
+globals:
+  variant_regions1: all_genes.bed
+upload:
+  dir: ../final/

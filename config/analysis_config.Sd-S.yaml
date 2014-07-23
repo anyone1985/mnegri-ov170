@@ -1,0 +1,1931 @@
+details:
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_10152_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_10152_blood/Sample_10152_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_10152_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20183_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20183_blood/Sample_20183_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20183_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20924_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20924_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20924_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20924_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20924_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20924_blood/Sample_20924_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20924_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20821_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20821_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20821_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20821_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20821_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20821_blood/Sample_20821_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20821_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20800_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20800_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20800_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20800_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20800_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20800_blood/Sample_20800_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20800_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20788_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20788_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20788_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20788_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20788_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20788_blood/Sample_20788_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20788_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20783_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20783_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20783_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20783_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20783_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20783_blood/Sample_20783_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20783_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20738_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20738_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20738_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20738_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20738_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20738_blood/Sample_20738_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20738_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20724_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20724_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20724_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20724_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20724_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20724_blood/Sample_20724_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20724_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20683_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20683_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20683_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20683_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20683_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20683_blood/Sample_20683_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20683_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20681_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20681_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20681_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20681_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20681_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20681_blood/Sample_20681_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20681_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20654_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20654_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20654_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20654_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20654_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20654_blood/Sample_20654_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20654_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20614_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20614_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20614_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20614_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20614_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20614_blood/Sample_20614_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20614_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20560_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20560_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20560_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20560_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20560_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20560_blood/Sample_20560_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20560_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20418_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20418_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20418_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20418_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20418_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20418_blood/Sample_20418_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20418_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20417_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20417_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20417_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20417_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20417_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20417_blood/Sample_20417_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20417_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20384_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20384_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20384_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20384_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20384_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20384_blood/Sample_20384_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20384_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20379_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20379_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20379_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20379_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20379_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20379_blood/Sample_20379_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20379_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20367_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20367_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20367_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20367_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20367_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20367_blood/Sample_20367_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20367_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20357_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20357_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20357_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20357_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20357_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20357_blood/Sample_20357_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20357_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20282_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20282_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20282_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20282_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20282_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20282_blood/Sample_20282_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20282_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21311_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21311_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21311_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21311_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21311_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21311_blood/Sample_21311_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21311_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21309_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21309_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21309_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21309_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21309_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21309_blood/Sample_21309_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21309_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21296_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21296_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21296_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21296_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21296_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21296_blood/Sample_21296_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21296_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21270_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21270_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21270_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21270_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21270_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21270_blood/Sample_21270_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21270_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21249_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21249_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21249_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21249_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21249_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21249_blood/Sample_21249_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21249_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21194_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21194_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21194_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21194_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21194_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21194_blood/Sample_21194_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21194_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21184_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21184_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21184_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21184_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21184_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21184_blood/Sample_21184_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21184_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21110_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21110_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21110_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21110_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21110_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21110_blood/Sample_21110_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21110_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21093_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21093_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21093_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21093_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21093_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21093_blood/Sample_21093_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21093_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20995_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20995_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20995_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20995_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20995_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20995_blood/Sample_20995_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20995_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20943_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20943_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20943_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20934_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20943_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20943_blood/Sample_20943_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20934_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20935_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20935_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20935_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20935_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20935_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20935_blood/Sample_20935_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20935_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20663_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20663_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20663_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20663_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20663_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20663_blood/Sample_20663_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20663_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20183_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20183_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20183_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20183_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20174_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20174_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20174_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20174_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20174_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20174_blood/Sample_20174_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20174_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20144_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20144_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_20144_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_20144_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_20144_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_20144_blood/Sample_20144_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_20144_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21019_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21019_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_21019_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_21019_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+-   algorithm:
+        aligner: false
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        merge_bamprep: false
+        platform: illumina
+        quality_format: Standard
+        realign: false
+        recalibrate: false
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_21019_blood
+    files:
+    - /mnt/data/projects/OV170-OV172/OV170-172_Ft-S_vs_blood_panelB/final/Sample_21019_blood/Sample_21019_blood-ready.bam
+    genome_build: hg19
+    metadata:
+        batch: Sample_21019_relapse_vs_blood
+        phenotype: normal
+        sex: female
+-   algorithm:
+        aligner: bwa
+        clinical_reporting: true
+        coverage_depth: high
+        coverage_interval: regional
+        mark_duplicates: false
+        platform: illumina
+        quality_format: Standard
+        realign: gatk
+        recalibrate: gatk
+        trim_reads: false
+        variant_regions: variant_regions1
+        variantcaller:
+        - mutect
+        - varscan
+        write_summary: true
+    analysis: variant2
+    description: Sample_10152_relapse
+    files:
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_10152_relapse_R1.fastq.gz
+    - /mnt/data/projects/OV170-OV172/raw_data/Sample_10152_relapse_R2.fastq.gz
+    genome_build: hg19
+    metadata:
+        batch: Sample_10152_relapse_vs_blood
+        phenotype: tumor
+        sex: female
+fc_date: '2014-04-16'
+fc_name: OV170-172_relapse_vs_blood_panelB
+globals:
+    variant_regions1: /mnt/data/projects/OV170-OV172/regions/panelB.bed
+upload:
+    dir: ../final/
