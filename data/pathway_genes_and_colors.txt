@@ -1,0 +1,66 @@
+Gene	Color	Pathway
+CDKN2A	#FFC000	Cell cycle
+CDK12	#FFC000	Cell cycle
+RB1	#FFC000	Cell cycle
+CCND1	#FFC000	Cell cycle
+CCNE1	#FFC000	Cell cycle
+CDKN1A	#FFC000	Cell cycle
+BRCA2	#E46C0A	Homologous recombination
+BRCA1	#E46C0A	Homologous recombination
+RAD51	#E46C0A	Homologous recombination
+BRIP1	#E46C0A	Homologous recombination
+C11orf30	#E46C0A	Homologous recombination
+FANCF	#E46C0A	Homologous recombination
+MLH1	#FF0000	Mismatch repair
+MSH2	#FF0000	Mismatch repair
+ERCC1	#C0504D	NER
+TP53	#92D050	DNA damage signaling
+CHEK2	#92D050	DNA damage signaling
+ATM	#92D050	DNA damage signaling
+ATR	#92D050	DNA damage signaling
+FGFR2	#4F6228	Signal Trasduction
+IGF1R	#4F6228	Signal Trasduction
+PDGFRB	#4F6228	Signal Trasduction
+THBS2	#4F6228	Signal Trasduction
+MET	#C3D69B	HER signaling
+ERBB2	#C3D69B	HER signaling
+EGFR	#C3D69B	HER signaling
+PIK3CA	#00B050	PI3K signaling
+PTEN	#00B050	PI3K signaling
+PPP2R1A	#00B050	PI3K signaling
+AKT2	#77933C	AKT signaling
+MTOR	#77933C	AKT signaling
+AKT1	#77933C	AKT signaling
+KRAS	#99FF33	G-Protein Receptor Signaling
+BRAF	#99FF33	G-Protein Receptor Signaling
+NF1	#99FF33	G-Protein Receptor Signaling
+ABCB1	#D99694	Drug Resistance
+TOP1	#D99694	Drug Resistance
+TOP2A	#D99694	Drug Resistance
+TOP2B	#D99694	Drug Resistance
+TUBB3	#D99694	Drug Resistance
+CDH1	#31859C	TGF Beta pathway
+TGFBR2	#31859C	TGF Beta pathway
+CTNNB1	#31859C	TGF Beta pathway
+BMP7	#31859C	TGF Beta pathway
+TGFB3	#31859C	TGF Beta pathway
+BAMBI	#31859C	TGF Beta pathway
+NOTCH3	#17375E	EMT- NOTCH
+WNT1	#17375E	EMT-WNT
+FN1	#558ED5	ECM interaction
+COL3A1	#558ED5	ECM interaction
+LAMC3	#558ED5	ECM interaction
+CD44	#558ED5	ECM interaction
+VIM	#558ED5	ECM interaction
+VCAM1	#558ED5	ECM interaction
+SNAI1	#0070C0	EMT-TF
+TWIST1	#0070C0	EMT-TF
+ZEB1	#0070C0	EMT-TF
+MYD88	#262626	Toll Like cascade
+TLR4	#262626	Toll Like cascade
+DICER1	#FFFFFF	miRNA biogenesis
+DROSHA	#FFFFFF	miRNA biogenesis
+ID4	#604A7B	Transcription Regulation
+FOXL2	#604A7B	Transcription Regulation
+FOXM1	#604A7B	Transcription Regulation
+ARID1A	#604A7B	Transcription Regulation
