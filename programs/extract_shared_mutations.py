@@ -52,7 +52,6 @@ renames = {"ts": "transition", "tv": "transversion", "ins": "insertion",
 substitutions = {
     "ZEB1-AS1": "ZEB1",      # Different strand
     "RHNO1": "FOXM1",        # Different strand
-    "PLA2G6": np.nan,     # off-target?
     "C3orf72": "FOXL2",      # Different strand
     # "MC1R": np.nan,       # past the promoter
     "ACAA1": "MYD88",        # Different strand
