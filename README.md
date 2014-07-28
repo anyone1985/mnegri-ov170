@@ -1,9 +1,11 @@
 mnegri-ov170
 ============
 
-Scripts and raw data used by the XXX publication.
+This repository holds scripts and raw data used by the publication:
+    
+TBA
 
-This repository has several subdirectories:
+and it is divided in several subdirectories:
 
 - ``config``: Includes configuration data for bcbio-nextgen
 - ``data``: Includes results (VCFs) and other data files
@@ -11,7 +13,7 @@ This repository has several subdirectories:
 
 ### Programs
 
-``dump_counts`` and ``extract_shared_mutations`` require Python 2, while the other programs require Python 3.4.
+``dump_counts`` and ``extract_shared_mutations`` require Python 2.7, while the other programs require Python 3.4.
 
 Other dependencies:
 
@@ -24,6 +26,9 @@ Other dependencies:
 - ``fastcluster``
 - ``numpy``
 - ``scipy``
+- ``pathlib`` (for Python 2.7 programs)
+
+All programs have command-line help. 
 
 ### Data files
 
