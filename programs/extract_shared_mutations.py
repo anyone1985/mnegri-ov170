@@ -507,6 +507,10 @@ def color_list_to_matrix_and_cmap(colors, ind, row=True):
         from the originally provided list of colors
     cmap : matplotlib.colors.ListedColormap
 
+
+    This function was taken from https://github.com/olgabot/seaborn and
+    is under a BSD license.
+
     """
     # TODO: Support multiple color labels on an element in the heatmap
     import matplotlib as mpl
