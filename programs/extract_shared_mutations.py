@@ -46,6 +46,34 @@ rc('font', **{'family': 'sans-serif',
 renames = {"ts": "transition", "tv": "transversion", "ins": "insertion",
            "del": "deletion"}
 
+# These work around proper gene association bugs (due to amplicon extending
+# past boundaries, or annotation picking things on the wrong strand)
+
+substitutions = {
+    "ZEB1-AS1": "ZEB1",      # Different strand
+    "RHNO1": "FOXM1",        # Different strand
+    "PLA2G6": np.nan,     # off-target?
+    "C3orf72": "FOXL2",      # Different strand
+    # "MC1R": np.nan,       # past the promoter
+    "ACAA1": "MYD88",        # Different strand
+    "VIM-AS1": "VIM",        # Different strand
+    "LOC100507424": "FOXM1",  # Wrong annotation?
+    "MTOR-AS1": "MTOR",
+    "EGFR-AS1": "EGFR",
+    "WRAP53": "TP53",
+    "EPM2AIP1": "MLH1",
+    "C5orf22": "DROSHA",
+    "C9orf53": "CDKN2A",
+    "LYRM5": "KRAS",
+    "N4BP2L1": "BRCA2",
+    "RMDN3": "RAD51",
+    "NBR2": "BRCA1",
+    "CNTD2": "AKT2",
+    "HSCB": "CHEK2",
+    "NPAT": "ATM",
+    "MC1R": "TUBB3"
+}
+
 
 def generate_phenotypes(database):
 
@@ -64,8 +92,16 @@ def generate_phenotypes(database):
 def get_nearby_gene(chrom, start, end):
 
     nearest = ucsc.knearest("refFlat", chrom, start, end)
-    assert len(nearest) == 1
-    nearest = nearest[0].geneName
+    nearest = pd.Series([item.geneName for item in nearest])
+    nearest = nearest.apply(lambda x: substitutions[x]
+                            if x in substitutions else x)
+    try:
+        nearest = nearest.drop_duplicates().item()
+    except Exception:
+        print(nearest.drop_duplicates())
+        raise
+
+    # assert len(nearest) == 1
 
     return nearest
 
