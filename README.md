@@ -5,9 +5,9 @@ Scripts and raw data used by the XXX publication.
 
 This repository has several subdirectories:
 
-- config: Includes configuration data for bcbio-nextgen
-- data: Includes results (VCFs) and other data files
-- programs: Includes the programs mentioned in the paper (Supplementary Section 2)
+- ``config``: Includes configuration data for bcbio-nextgen
+- ``data``: Includes results (VCFs) and other data files
+- ``programs``: Includes the programs mentioned in the paper (Supplementary Section 2)
 
 ### Programs
 
@@ -35,4 +35,3 @@ The data files included are as follows:
 - ``Sd-S_mutation_counts.txt``: Mutation counts for Sd-S samples
 - ``phenotype_color_table.txt``: Table to use with ``mutation_heatmap`` to plot OS, PFS, and other phenotypes
 - ``pathway_genes_and_colors.txt``: Table to use with ``mutation_heatmap`` to plot the genes associated with pathways
-
