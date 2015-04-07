@@ -6,6 +6,8 @@ This repository holds scripts and raw data used by the publication:
 L. Beltrame, M. Di Marino, R. Fruscio, E. Calura, B. Chapman, L. Clivio, F. Sina, C. Mele, P. Iatropoulos, T. Grassi, V. Fotia, C. Romualdi, P. Martini, M. Noris, L. Paracchini, Ilaria Craparotta, M. Petrillo, R. Milani, P. Perego, A. Ravaggi, A. Zambelli, E. Ronchetti, M. D'Incalci, and S. Marchini
 **Profiling cancer gene mutations in longitudinal epithelial ovarian cancer biopsies by targeted next-generation sequencing: a retrospective study**. *Annals of Oncology*, 2015.
 
+DOI: <http://dx.doi.org/10.1093/annonc/mdv164>
+
 and it is divided in several subdirectories:
 
 - ``config``: Includes configuration data for bcbio-nextgen
